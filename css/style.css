@@ -1,0 +1,300 @@
+body {
+	background: url(../img/Background_copy.png) no-repeat;
+	background-size: cover;
+	height: 1080px;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Cyr Thin', Arial, Tahoma, sans-serif;
+    src: url('../fonts/helveticaneue-webfont.eot');
+    src: url('../fonts/helveticaneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	/*position: relative;
+	width: 1215px;
+	top: 0;*/
+	height: 40px;
+	background: #075191;
+	margin: 0 auto 0;
+}
+
+.menu {
+	/*display: inline-block;
+	vertical-align: top;*/
+	margin: 0 auto;
+}
+
+.tab1 {
+	display: block;
+	/*position: absolute;*/
+	left: 369px;
+	width: 130px;
+	height: 40px;
+	list-style: none;
+}
+
+.tab2 {
+	display: block;
+	/*position: absolute;*/
+	left: 486px;
+	width: 70px;
+	height: 40px;
+	list-style: none;
+}
+
+.tab3 {
+	/*position: absolute;*/
+	left: 560px;
+	width: 70px;
+	height: 40px;
+	list-style: none;
+}
+
+.tab4 {
+	/*position: absolute;*/
+	left: 632px;
+	width: 75px;
+	height: 40px;
+	list-style: none;
+}
+
+.tab5 {
+	/*position: absolute;*/
+	left: 719px;
+	width: 70px;
+	height: 40px;
+	list-style: none;
+}
+
+.tab6 {
+	/*position: absolute;*/
+	left: 838px;
+	width: 145px;
+	height: 40px;
+	list-style: none;
+}
+
+.tab7 {
+	/*position: absolute;*/
+	left: 975px;
+	width: 205px;
+	height: 40px;
+	list-style: none;
+}
+
+a {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 12px;
+	text-decoration: none;
+	font-family: "Helvetica Neue Cyr Thin", sans-serif;
+	font-size: 15px;
+	font-style: none;
+	color: white;
+}
+
+.conteiner {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	max-width: 1920px;
+	min-height: 1080px;
+	/*transform: translate(-50%, -50%);*/
+	
+}
+
+
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 278px;
+	min-height: 120px;
+	padding: 65px 141px 30px;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-top: 1px solid;
+	border-color: transparent;
+	z-index: 1;
+	clear: both;
+}
+
+
+.block_head_form {
+	width: 558px;
+	margin-left: -141px;
+	background-color: transparent;
+}
+
+.head_form {
+	position: absolute;
+	top: 25px;
+	left: 214px;
+	display: inline-block;
+  vertical-align: top;
+  width: 140px;
+	font-family: "Helvetica Neue Cyr Thin", sans-serif;
+	font-size: 24px;
+  color: rgb(255, 255, 255);
+  line-height: 0.667;
+  text-align: left;
+  clear: both;
+}
+
+.line1 {
+	position: relative;
+	top: -16px;
+	left: 0px;
+	width: 122px;
+	display: block;
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 1);
+	clear: both;
+}
+
+.big_text {
+	position: relative;
+	bottom: 26px;
+	left: 129px;
+	width: 20px;
+	font-family: "Helvetica Neue Cyr Thin", sans-serif;
+	font-size: 14px;
+	color: rgb(153, 153, 153);
+}
+
+.line2 {
+	position: relative;
+	top: -35px;
+	left: 153px;
+	width: 122px;
+	clear: both;
+}
+
+input {
+	width: 276px;
+	height: 35px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	border: none;
+	border-bottom: solid 1px #484848;
+	font-family: "Helvetica Neue Cyr Thin", sans-serif;
+	font-size: 14px;
+  	color: rgb(240, 240, 240);
+  	background: -moz-linear-gradient(top,  #100f0e, #100f0e 100%);
+	background: -webkit-linear-gradient(top,  #100f0e, #100f0e 100%);
+	background: linear-gradient(to bottom,  #111111, #111111 100%);
+	box-sizing: border-box;
+
+}
+
+p > .input_txt:hover {
+	background: #1b5288;
+	color: white;
+	-webkit-box-shadow: 0px 0px 8px 3px rgba(104,155,205,1);
+   -moz-box-shadow: 0px 0px 8px 3px rgba(104,155,205,1);
+   box-shadow: 0px 0px 8px 3px rgba(104,155,205,1);
+}
+
+.reg_facebook {
+	/*position: absolute;*/
+	width: 276px;
+	height: 35px;
+	margin-bottom: 17px;
+	font-weight: bolder;
+	font-size: 14px;
+	border-radius: 5px;
+	border-top: 2px solid #778cb9;
+	border-bottom: 2px solid #333f65;
+	background: -moz-linear-gradient(top,  #3d5698, #2d4279 100%);
+	background: -webkit-linear-gradient(top,  #3d5698, #2d4279 100%);
+	background: linear-gradient(to bottom,  #3d5698, #2d4279 100%);
+	box-sizing: border-box;
+	z-index: 3;
+}
+
+.img_facebook {
+	position: relative;
+	top: 35px;
+	left: 3px;
+	width: 37px;
+	height: 35px;
+	border-right: 1px solid #778cb9;
+	z-index: 2;
+	clear: both;
+}
+
+ .facebookLogo {
+ 	position: relative;
+ 	width: 36px;
+ 	height: 35px;
+ 	border-right: 0.5px solid #1d2a4a;
+ 	z-index: 2;
+ 	clear: both;
+}
+
+.triangl_facebook {
+	position: relative;
+	top: -48px;
+	left: 236px;
+	width: 25px;
+	clear: both;
+}
+
+.checkbox_txt {
+	font-family: "Helvetica Neue Cyr Thin", sans-serif;
+	font-size: 14px;
+    color: rgb(204, 204, 204);
+	text-align: left;
+	line-height: 2;
+}
+
+.box {
+	width: 13px;
+	height: 13px;
+	margin: 10px 5px 0px 0px;
+}
+ 
+  
+.submit_tab {
+	position: relative;
+	top: 22px;
+	left: 62px;
+	width: 150px;
+	height: 40px;
+	padding: 0;
+	border-radius: 5px;
+	background: -moz-linear-gradient(top,  #4ca9d9, #2e7bc4 100%);
+	background: -webkit-linear-gradient(top,  #4ca9d9, #2e7bc4 100%);
+	background: linear-gradient(to bottom,  #4ca9d9, #2e7bc4 100%);
+}
+
+.block_By_clicking_the_button {
+	position: relative;
+	top: 10px;
+	left: -15px;
+	width: 315px;
+
+}
+
+.By_clicking_the_button {
+	display: inline-block;
+	vertical-align: top;
+	width: 308px;
+	margin-top: 20px;
+	font-family: "Helvetica Neue Cyr Thin", sans-serif;
+	font-size: 11px;
+	color: rgb(204, 204, 204);
+	line-height: 1.455;
+	text-align: center;
+}
