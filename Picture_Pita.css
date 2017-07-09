@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.color1 {
+	background-color: red;
+
+}
+
+td {
+	width: 150px;
+	height: 50px;
+
+}
+
+.red-cube {
+	
+	border: 5px solid black;
+
+}
